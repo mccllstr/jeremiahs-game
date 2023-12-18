@@ -18,43 +18,43 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="S"
           status="correct"
         />
-        <Cell value="E" isCompleted={true} />
-        <Cell value="A" isCompleted={true} />
-        <Cell value="R" isCompleted={true} />
-        <Cell value="Y" isCompleted={true} />
+        <Cell value="C" isCompleted={true} />
+        <Cell value="O" isCompleted={true} />
+        <Cell value="O" isCompleted={true} />
+        <Cell value="P" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter S is in the word and in the correct spot.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="P" isCompleted={true} />
-        <Cell value="I" isCompleted={true} />
+        <Cell value="M" isCompleted={true} />
+        <Cell value="A" isCompleted={true} />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="N"
           status="present"
         />
+        <Cell value="G" isCompleted={true} />
         <Cell value="O" isCompleted={true} />
-        <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        The letter N is in the word but in the wrong spot.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="V" isCompleted={true} />
+        <Cell value="Q" isCompleted={true} />
+        <Cell value="U" isCompleted={true} />
         <Cell value="A" isCompleted={true} />
-        <Cell value="G" isCompleted={true} />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" isCompleted={true} />
+        <Cell isRevealing={true} isCompleted={true} value="R" status="absent" />
+        <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        The letter R is not in the word in any spot.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
