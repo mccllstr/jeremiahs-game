@@ -36,7 +36,7 @@ export const Cell = ({
         status === 'correct' && isHighContrast,
       'present shadowed bg-cyan-500 text-white border-cyan-500':
         status === 'present' && isHighContrast,
-      'correct shadowed bg-lime-300 text-white border-lime-300':
+      'correct shadowed bg-lime-300 text-white border-lime-400':
         status === 'correct' && !isHighContrast,
       'present shadowed bg-orange-500 text-white border-orange-500':
         status === 'present' && !isHighContrast,
