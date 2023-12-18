@@ -2,7 +2,6 @@ export const WORDS = [
  'Guest',
 'Frogs',
 'Blast',
-'Cherry',
 'Large',
 'Swirl',
 'Mango',
