@@ -9,7 +9,7 @@
   --default-cell-border-color: theme('colors.black');
   --default-cell-text-color: theme('colors.black');
   --absent-cell-bg-color: theme('colors.slate.400');
-  --correct-cell-bg-color: theme('colors.lime.400');
+  --correct-cell-bg-color: theme('colors.lime.300');
   --present-cell-bg-color: theme('colors.orange.500');
 }
 
